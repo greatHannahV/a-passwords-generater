@@ -1,0 +1,191 @@
+body {
+
+    width: 1253px;
+    height: 678px;
+
+    background: #1C1C1C;
+    margin: auto;
+
+}
+
+#mainWindow {
+    width: 550px;
+    height: 550px;
+    left: 642px;
+    top: 64px;
+    background: #ECFDF5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    
+}
+
+
+
+
+
+#generatePassword {
+
+    margin: 20px 52px;
+    align-items: center;
+    padding: 9px 17px;
+    gap: 12px;
+
+    width: 119px;
+    height: 42px;
+    background: #10B981;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/*try new stuff*/
+#passLength {
+    width: 130px;
+    height: 36px;
+    border-radius: 6px;
+    border: none;
+    background-color: #10B981;
+    padding: 5px 10px;
+
+}
+
+#myButton {
+    width: 60px;
+    height: 36px;
+    border-radius: 6px;
+    border: none;
+    background-color: #10B981;
+    padding: 5px 10px;
+}
+
+.headString {
+
+    width: 332px;
+    height: 80px;
+    margin: 115px 52px 0px 52px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.05em;
+    color: #2B283A;
+    padding: 120px 10px 5px 0px;
+
+
+}
+
+#stringPassword {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #6B7280;
+    margin: 0px 52px 80px 52px;
+}
+
+
+#shiftcolor {
+
+    color: #10B981
+}
+
+.bottons {
+    border-top: 1px solid #D5D4D8;
+    margin: 40px auto 10px auto;
+    width: 446px;
+    height: 0px;
+    padding-top: 50px;
+
+}
+
+
+#firstPassword {
+
+    width: 170px;
+    height: 25px;
+    padding: 10px 20px;
+    background: #273549;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #5DEF92;
+    display: inline-block;
+    line-height: 25px;
+    margin-left: 45px;
+}
+
+
+#secondPassword {
+    width: 170px;
+    height: 25px;
+    padding: 10px 20px;
+    background: #273549;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #5DEF92;
+    display: inline-block;
+    margin-top: -40;
+    line-height: 25px;
+
+}
+
+.textFirstPass {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+
+    text-align: center;
+    color: #5DEF92;
+    padding: 5px 10px;
+
+
+}
+
+.textSecPass {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+
+    color: #5DEF92;
+    padding: 5px 10px;
+
+}
+
+/*try dpormenu*/
+/*.dropdown {
+    display: inline-block;
+    position: relative;
+    margin-top: -349px;
+    margin-left: 450px;
+    
+}
+
+.dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+}
+
+.dropdown:hover .dropdown-options {
+    display: block;
+}
+
+.dropdown-options p{
+    color: #10B981;
+    padding: 5px 10px;
+    cursor:pointer;
+
+}
+.dropbtn{
+    background: #ECFDF5;
+    padding: 5px 10px;
+    border: none;
+    
+} */

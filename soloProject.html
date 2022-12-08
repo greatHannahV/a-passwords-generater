@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="soloProject.css">
+    </head>
+    <body>
+        <div id="mainWindow">
+            <p class="headString">Generate a <br><a id="shiftcolor"> random
+                    password</a></p>
+            <div id="stringPassword">Never use an insecure password again</div>
+            <botton id="generatePassword">Generate passwords</botton>
+
+            <script
+                src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <input type="text" id="passLength" name="password" maxlength="2"
+                value="Password" onfocus="this.value=''">
+            <button id="myButton">Submit</button>
+
+           <!-- <div class="dropdown">
+                <button class="dropbtn">Password's criterias</button>
+                <div class="dropdown-options">
+                    <p href="#" id="b1" onclick="b1">Symbols</p>
+                    <p href="#" id="b2">Numbers </p>
+                    <p href="#" id="b3">All</p>
+                </div>
+            </div> -->
+            <div class="bottons"></div>
+            <div>
+                <botton id="firstPassword" onclick="copy(this)"><a
+                        class="textFirstPass">Your first password</a>
+                </botton>
+                <botton id="secondPassword" onclick="copy(this)"><a
+                        class="textSecPass">Your second
+                        password</a> </botton>
+            </div>
+
+            <script src="soloProject.js"></script>
+        </body>
+    </html>
